@@ -1,0 +1,13 @@
+.notif{
+    width: 700px;
+    padding: 25px;
+    background: black;
+    margin-top: 0px;
+    padding-top: 25px;
+    color: white;
+    display: inline-block;
+}
+
+.notif_text{
+    padding-bottom: 25px;
+}

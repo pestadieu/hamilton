@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+.player{
+    display: inline-block;
+}
+
+.album{
+    width: 33.33%;
+    display: block;
+    float: left;
+}
