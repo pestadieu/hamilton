@@ -1,0 +1,68 @@
+.appMenu{
+    max-width:100%;
+  }
+  
+  h2{
+    text-align:center;
+  
+  }
+  
+  .safeMode{
+    width: 100%;
+  }
+  
+  html, body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family : Arial;
+    background: radial-gradient(circle at center, rgb(0, 0, 0), rgb(75, 78, 75));
+  }
+  
+  
+  head{
+  }
+  
+  .topBar{
+    text-align:center;
+    font-size: 25px;
+    color: white;
+  }
+  
+  button{
+    background: none;
+    border:none;
+  }
+  
+  .top{
+    margin: auto;
+    display:block;
+    max-width: 1200px;
+  }
+  
+  .bottom{
+    display:flex;
+    background: rgba(185, 144, 189, 0.58);
+    text-align: center;
+  }
+  
+  .appMenu{
+    padding-top: 50px;
+    display: block;
+    width: 75%;
+    margin: auto;
+  }
+  
+  .line{
+    padding: 20px;
+  }
+  
+  .appPanel{max-width: 50%;padding: 0px 10px;width: 50%;}
+  
+  .notificationsPanel{
+    max-width: 50%;
+    padding: 0px 20px;
+    width: 50%;
+  }
+  
+  #map {height: 600px;width: 100%;}

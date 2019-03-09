@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/pestadieu/hamilton#readme",
   "dependencies": {
+    "@agm/core": "^1.0.0-beta.5",
+    "@ng-bootstrap/ng-bootstrap": "^4.1.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
   }
