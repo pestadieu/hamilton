@@ -1,0 +1,26 @@
+{
+  "name": "hamilton",
+  "version": "1.0.0",
+  "description": "hamilton hamilton hamilton hamilton",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pestadieu/hamilton.git"
+  },
+  "keywords": [
+    "hamilton"
+  ],
+  "author": "hamilton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pestadieu/hamilton/issues"
+  },
+  "homepage": "https://github.com/pestadieu/hamilton#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
