@@ -11,6 +11,7 @@ import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
 import { MapComponent } from './components/map/map.component';
 import { PlayerComponent } from './components/player/player.component';
 import { NotificationComponent } from './components/notification/notification.component';
+import { HvacComponent } from './components/hvac/hvac.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { WeatherComponent } from './components/weather/weather.component';
 
@@ -19,7 +20,7 @@ enableProdMode();
 @NgModule({
   declarations: [
     AppComponent, 
-    MapComponent, PlayerComponent, NotificationComponent, NavbarComponent, WeatherComponent
+    MapComponent, PlayerComponent, NotificationComponent, NavbarComponent, WeatherComponent, HvacComponent
   ],
   imports: [
     BrowserModule,
