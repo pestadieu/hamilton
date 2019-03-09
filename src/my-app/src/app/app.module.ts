@@ -9,14 +9,22 @@ import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
 import { MapComponent } from './components/map/map.component';
 import { PlayerComponent } from './components/player/player.component';
 import { NotificationComponent } from './components/notification/notification.component';
+<<<<<<< HEAD
 import { HvacComponent } from './components/hvac/hvac.component';
+=======
+import { NavbarComponent } from './components/navbar/navbar.component';
+>>>>>>> 469ac65fd4f6e60c8b409f1c2bf482604a3d2a29
 
  
 enableProdMode();
 @NgModule({
   declarations: [
     AppComponent, 
+<<<<<<< HEAD
     MapComponent, PlayerComponent, NotificationComponent, HvacComponent
+=======
+    MapComponent, PlayerComponent, NotificationComponent, NavbarComponent
+>>>>>>> 469ac65fd4f6e60c8b409f1c2bf482604a3d2a29
   ],
   imports: [
     BrowserModule,
