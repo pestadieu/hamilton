@@ -32,7 +32,7 @@ export class PlayerComponent implements OnInit{
       if(isDanger) {
         // Hide the player and 
         var playerHide = document.getElementById("player").style.display = 'none';
-
+        var weatherHide = document.getElementById("weather").style.display = 'none';
         // show the danger message
         dangerAlert.style.display = 'block';
         // Show the notification
