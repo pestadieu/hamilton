@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.player{
+    display: inline-block;
+    background-color: #e0e0e0;
+    font: black;
+}
+
+.album{
+    width: 33.33%;
+    display: block;
+    float: left;
+}
