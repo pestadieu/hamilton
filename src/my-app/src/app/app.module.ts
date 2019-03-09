@@ -9,13 +9,14 @@ import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
 import { MapComponent } from './components/map/map.component';
 import { PlayerComponent } from './components/player/player.component';
 import { NotificationComponent } from './components/notification/notification.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
  
 enableProdMode();
 @NgModule({
   declarations: [
     AppComponent, 
-    MapComponent, PlayerComponent, NotificationComponent
+    MapComponent, PlayerComponent, NotificationComponent, NavbarComponent
   ],
   imports: [
     BrowserModule,
