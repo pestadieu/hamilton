@@ -6,7 +6,7 @@ import { HttpModule } from '@angular/http';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
-import { MapComponent } from './map/map.component';
+import { MapComponent } from './components/map/map.component';
 import { PlayerComponent } from './components/player/player.component';
 import { NotificationComponent } from './components/notification/notification.component';
 
