@@ -9,7 +9,7 @@ import { Observable} from "rxjs";
 export class WeatherService {
   public weather;
   public weatherTest = [];
-  url = "https://api.openweathermap.org/data/2.5/weather?q=Zurich,ch&appid=4735ac105002fdb98f582cbd7b684703";
+  url = "https://api.openweathermap.org/data/2.5/weather?id=2766725&appid=4735ac105002fdb98f582cbd7b684703";
   
   constructor(private http: HttpClient) { 
     

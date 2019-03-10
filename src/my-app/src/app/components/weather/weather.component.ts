@@ -14,6 +14,7 @@ export class WeatherComponent implements OnInit {
 
  
   weather;
+  icon_url;
   final_weather: FinalWeather;
   public jsonWeather;
 
@@ -25,6 +26,7 @@ export class WeatherComponent implements OnInit {
         console.log(res.weather);
         let final_weather = res.weather[0];
         this.weather = final_weather.main;
+        this.icon_url = "http://openweathermap.org/img/w/" + final_weather.icon + ".png";
       })
     //this.weather = this.weatherService.getWeather();
     //console.log(this.weatherService.getWeather());
