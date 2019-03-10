@@ -93,7 +93,7 @@ export class MapComponent implements OnInit {
   }  
 
   ngOnInit() {
-    this.location.marker.draggable = true;
+  //this.location.marker.draggable = true;
     this.getCurrentLocation();
   }
 
